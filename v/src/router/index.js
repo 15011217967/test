@@ -8,6 +8,6 @@ export default new Router({
     { 
       path: '/',
       name: '',
-      component: resolve => require(['@/components/HelloWorld'], resolve),
+      component: resolve => require(['@/views/home/home'], resolve),
     }]
 });
