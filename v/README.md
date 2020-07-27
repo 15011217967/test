@@ -1,4 +1,4 @@
-# v3
+# v
 
 ## Project setup
 ```
