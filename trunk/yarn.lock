@@ -1136,6 +1136,11 @@
     "@webassemblyjs/wast-parser" "1.7.11"
     "@xtuc/long" "4.2.1"
 
+"@xmldom/xmldom@^0.8.2":
+  version "0.8.3"
+  resolved "https://registry.yarnpkg.com/@xmldom/xmldom/-/xmldom-0.8.3.tgz#beaf980612532aa9a3004aff7e428943aeaa0711"
+  integrity sha512-Lv2vySXypg4nfa51LY1nU8yDAGo/5YwF+EY/rUZgIbfvwVARcd67ttCM8SMsTeJy51YhHYavEq+FS6R0hW9PFQ==
+
 "@xtuc/ieee754@^1.2.0":
   version "1.2.0"
   resolved "https://registry.npm.taobao.org/@xtuc/ieee754/download/@xtuc/ieee754-1.2.0.tgz#eef014a3145ae477a1cbc00cd1e552336dceb790"
@@ -1451,6 +1456,13 @@ axios@^0.18.0:
   dependencies:
     follow-redirects "^1.3.0"
     is-buffer "^1.1.5"
+
+axios@^0.21.1:
+  version "0.21.4"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.4.tgz#c67b90dc0568e5c1cf2b0b858c43ba28e2eda575"
+  integrity sha512-ut5vewkiu8jjGBdqpM44XxjuCjq9LAKeHVmoVfHVzy8eHgxxq8SbAVQNovDA8mVi05kP0Ea/n/UzcSHcTJQfNg==
+  dependencies:
+    follow-redirects "^1.14.0"
 
 babel-code-frame@^6.26.0:
   version "6.26.0"
@@ -2255,12 +2267,12 @@ core-util-is@1.0.2, core-util-is@~1.0.0:
   resolved "https://registry.npm.taobao.org/core-util-is/download/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
   integrity sha1-tf1UIgqivFq1eqtxQMlAdUUDwac=
 
-cos-js-sdk-v5@0.5.16:
-  version "0.5.16"
-  resolved "https://registry.yarnpkg.com/cos-js-sdk-v5/-/cos-js-sdk-v5-0.5.16.tgz#93197b7e1a5f45bb2e6809ccdc10eac75b547b6f"
-  integrity sha512-XVrdylWPJCC32c8Z3Vw6Cgc9Yr0NPtE7jByZ5JvAerYJ/5yATg6O7u5KnpF0kZn/cD1HRyQTDiXDZORPN+Vu3A==
+cos-js-sdk-v5@^1.3.7:
+  version "1.4.6"
+  resolved "https://registry.yarnpkg.com/cos-js-sdk-v5/-/cos-js-sdk-v5-1.4.6.tgz#807b9eb4d8228ec1b6624f5bf71eb1e833930102"
+  integrity sha512-FTUXjBqtADiNk3O5pwiaiDLQRiD2bt5ZQnP+34rfBszG6DqH6oa7FNpQeI7lnTiCvsfIyE/EcsuCBt7VVQpioQ==
   dependencies:
-    xmldom "^0.1.27"
+    "@xmldom/xmldom" "^0.8.2"
 
 cosmiconfig@^4.0.0:
   version "4.0.0"
@@ -3076,6 +3088,11 @@ eventemitter3@^3.0.0:
   resolved "https://registry.npm.taobao.org/eventemitter3/download/eventemitter3-3.1.2.tgz#2d3d48f9c346698fce83a85d7d664e98535df6e7"
   integrity sha1-LT1I+cNGaY/Og6hdfWZOmFNd9uc=
 
+eventemitter3@^4.0.7:
+  version "4.0.7"
+  resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-4.0.7.tgz#2de9b68f6528d5644ef5c59526a1b4a07306169f"
+  integrity sha512-8guHBZCwKnFhYdHr2ysuRWErTwhoN2X8XELRlrRwpmfeY2jjuUN4taQMsULKUVo1K4DvZl+0pgfyoysHxvmvEw==
+
 events@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npm.taobao.org/events/download/events-3.0.0.tgz#9a0a0dfaf62893d92b875b8f2698ca4114973e88"
@@ -3361,6 +3378,11 @@ follow-redirects@^1.0.0, follow-redirects@^1.3.0:
   integrity sha1-SJ68GY3A5/ZBZ70jsDxMGbV4THY=
   dependencies:
     debug "^3.2.6"
+
+follow-redirects@^1.14.0:
+  version "1.15.2"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.2.tgz#b460864144ba63f2681096f274c4e57026da2c13"
+  integrity sha512-VQLG33o04KaQ8uYi2tVNbdrWp1QWxNNea+nmIB4EVM28v0hmP17z7aG1+wAkNzVq4KeXTq3221ye5qTJP91JwA==
 
 font-awesome@^4.7.0:
   version "4.7.0"
@@ -7614,14 +7636,16 @@ vm-browserify@0.0.4:
   dependencies:
     indexof "0.0.1"
 
-vod-js-sdk-v6@^1.2.10:
-  version "1.2.11"
-  resolved "https://registry.yarnpkg.com/vod-js-sdk-v6/-/vod-js-sdk-v6-1.2.11.tgz#3bd5ead6fc4ebc369284c0e69c0937ad7933e1a6"
-  integrity sha512-OVB8fxCabLKkaWGKzdJC6HxSumQ4/bJQRhxe7ZxAaDLfvAU0NhwLfY8VXypHhd6NpWAwf+B4wj8Z/LMc+RFlqg==
+vod-js-sdk-v6@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/vod-js-sdk-v6/-/vod-js-sdk-v6-1.5.0.tgz#c3e9bbcdfb69f0f7d3a316c4176ba89b46b11c67"
+  integrity sha512-WkMtV9MDxO//6SDQgw+QsbO3dskJwE8nmch2Wn3e4Oub5/eav6DMedFAHRjar+tt9WDLveO0YLxa3yVBQ2DHbQ==
   dependencies:
-    axios "^0.18.0"
-    cos-js-sdk-v5 "0.5.16"
+    axios "^0.21.1"
+    cos-js-sdk-v5 "^1.3.7"
+    eventemitter3 "^4.0.7"
     js-sha1 "^0.6.0"
+    uuid "^3.3.2"
 
 vue-hot-reload-api@^2.3.0:
   version "2.3.3"
@@ -7921,11 +7945,6 @@ xlsx@^0.14.3:
     crc-32 "~1.2.0"
     exit-on-epipe "~1.0.1"
     ssf "~0.10.2"
-
-xmldom@^0.1.27:
-  version "0.1.27"
-  resolved "https://registry.yarnpkg.com/xmldom/-/xmldom-0.1.27.tgz#d501f97b3bdb403af8ef9ecc20573187aadac0e9"
-  integrity sha1-1QH5ezvbQDr4757MIFcxh6rawOk=
 
 xtend@^4.0.0, xtend@~4.0.1:
   version "4.0.1"

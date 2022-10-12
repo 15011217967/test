@@ -28,7 +28,7 @@
     "file-saver": "^2.0.2",
     "nprogress": "^0.2.0",
     "sortablejs": "^1.9.0",
-    "vod-js-sdk-v6": "^1.2.10",
+    "vod-js-sdk-v6": "^1.5.0",
     "vue": "^2.6.10",
     "vue-jsonp": "^0.1.6",
     "vue-router": "^3.0.3",
